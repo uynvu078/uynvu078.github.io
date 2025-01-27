@@ -1,25 +1,21 @@
 ---
 layout: default
-title: Welcome to My Website
+title: "Uyen Vu's Website"
 ---
 
 # Hello, I'm Uyen Vu 👋
-Welcome to my personal website! 
+Welcome to my personal website!
 
-I'm a **Software Developer** with a passion for creating efficient, scalable, and user-friendly applications.
+I’m a **Software Developer** with a passion for creating efficient, scalable, and user-friendly applications.
 
-Here you’ll find my resume, projects, and ways to connect with me.
+Here you’ll find:
 
-- My **resume**
-  
-  **[View My Resume (PDF)](files/resume.pdf)**
-  [[Download]](files/resume.pdf)
-- A showcase of my **projects**
-- Links to connect with me on
-  
-  **[LinkedIn](https://linkedin.com/in/your-profile)**
-  
-  **[GitHub](https://github.com/uynvu078)**
-
+- **My Resume**  
+  [View My Resume (PDF)](files/resume.pdf) | [Download](files/resume.pdf)
+- **A Showcase of My Projects**  
+  Explore my GitHub repositories and the projects I’ve built.
+- **Ways to Connect**  
+  - [LinkedIn](https://linkedin.com/in/your-profile)  
+  - [GitHub](https://github.com/uynvu078)
 
 Feel free to explore and reach out!
