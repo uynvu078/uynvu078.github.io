@@ -15,7 +15,7 @@ Here you’ll find:
 - **A Showcase of My Projects**  
   Explore my GitHub repositories and the projects I’ve built.
 - **Ways to Connect**  
-  - [LinkedIn](https://linkedin.com/in/your-profile)  
+  - [LinkedIn](www.linkedin.com/in/uyen-vu-sf8358)  
   - [GitHub](https://github.com/uynvu078)
 
 Feel free to explore and reach out!
