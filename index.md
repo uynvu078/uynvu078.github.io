@@ -19,7 +19,7 @@ Here you’ll find my resume, projects, and ways to connect with me.
   
   **[LinkedIn](https://linkedin.com/in/your-profile)**
   
-  **[GitHub](https://github.com/your-username)**
+  **[GitHub](https://github.com/uynvu078)**
 
 
 Feel free to explore and reach out!
