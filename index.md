@@ -11,7 +11,9 @@ I'm a **Software Developer** with a passion for creating efficient, scalable, an
 Here you’ll find my resume, projects, and ways to connect with me.
 
 - My **resume**
+- 
   [View My Resume (PDF)](files/resume.pdf)
+  
   [Download My Resume](files/resume.pdf)
 - A showcase of my **projects**
 - Links to connect with me on
