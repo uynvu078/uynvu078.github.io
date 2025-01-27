@@ -13,8 +13,7 @@ Here you’ll find my resume, projects, and ways to connect with me.
 - My **resume**
   
   [View My Resume (PDF)](files/resume.pdf)
-  
-  [Download My Resume](files/resume.pdf)
+  [[Download]](files/resume.pdf)
 - A showcase of my **projects**
 - Links to connect with me on
   
