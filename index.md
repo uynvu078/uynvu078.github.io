@@ -4,21 +4,27 @@ title: "Uyen Vu's Website"
 ---
 
 # Hello, I'm Uyen Vu 👋
-Welcome to my personal website!
+Welcome to my personal website!  
+
+![Uyen Vu](images/profile.png)
 
 I’m a **Software Developer** with a passion for creating efficient, scalable, and user-friendly applications.
-
-Here you’ll find:
-- **My Resume**  
-  [View My Resume (PDF)](files/resume.pdf) | [[Download]](files/resume.pdf)
-- **A Showcase of My Projects**  
-  Explore my GitHub repositories and the projects I’ve built.
-- **Ways to Connect**  
-  - [LinkedIn](www.linkedin.com/in/uyen-vu-sf8358)  
-  - [GitHub](https://github.com/uynvu078)
 
 ## Education
 - **University of Houston**  
   Bachelor of Science in Computer Science, 202X
+
+## Projects
+- **Project Name**: A brief description of what this project does. [View on GitHub](https://github.com/your-repo)
+- **Another Project**: Description of a different project. [View on GitHub](https://github.com/your-repo)
+
+## Links
+- [Resume (PDF)](files/resume.pdf)  
+- [LinkedIn](https://www.linkedin.com/in/uyen-vu-sf8358/)  
+- [GitHub](https://github.com/uynvu078)
+
+## Resources
+- [University of Houston Computer Science Department](https://www.cs.uh.edu/)
+
   
 Feel free to explore and reach out!
