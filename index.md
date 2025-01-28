@@ -6,7 +6,7 @@ title: "Uyen Vu's Website"
 # Hello, I'm Uyen Vu 👋
 Welcome to my personal website!  
 
-![Uyen Vu](images/profile.png){: width="150px"}
+<img src="images/profile.png" alt="Uyen Vu" style="width:150px; border-radius:50%;">
 
 I’m a **Software Developer** with a passion for creating efficient, scalable, and user-friendly applications.
 
