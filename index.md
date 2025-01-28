@@ -9,7 +9,9 @@ Welcome to my personal website!
 I’m a **Software Developer** with a passion for creating efficient, scalable, and user-friendly applications.
 
 Here you’ll find:
-
+## Education
+- **University of Houston**  
+  Bachelor of Science in Computer Science, 202X
 - **My Resume**  
   [View My Resume (PDF)](files/resume.pdf) | [[Download]](files/resume.pdf)
 - **A Showcase of My Projects**  
