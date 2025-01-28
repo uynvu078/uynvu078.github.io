@@ -29,4 +29,4 @@ I’m a **Software Developer** with a passion for creating efficient, scalable, 
 - [University of Houston Computer Science Department](https://www.cs.uh.edu/)
 
   
-Feel free to explore and reach out!
+Feel free to explore and reach out via [LinkedIn](https://www.linkedin.com/in/uyen-vu-sf8358/) or email at [uyenvu315@gmail.com](mailto:uyenvu315@gmail.com)!
