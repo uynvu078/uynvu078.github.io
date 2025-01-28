@@ -19,7 +19,7 @@ I’m a **Software Developer** with a passion for creating efficient, scalable, 
 - **Another Project**: Description of a different project. [View on GitHub](https://github.com/your-repo)
 
 ## Links
-- [Resume (PDF)](files/resume.pdf)  
+- [Resume (PDF)](https://uynvu078.github.io/files/resume.pdf)  
 - [LinkedIn](https://www.linkedin.com/in/uyen-vu-sf8358/)  
 - [GitHub](https://github.com/uynvu078)
 
