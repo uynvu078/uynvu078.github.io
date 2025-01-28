@@ -11,7 +11,7 @@ I’m a **Software Developer** with a passion for creating efficient, scalable, 
 Here you’ll find:
 
 - **My Resume**  
-  [View My Resume (PDF)](files/resume.pdf) | [Download](files/resume.pdf)
+  [View My Resume (PDF)](files/resume.pdf) | [[Download]](files/resume.pdf)
 - **A Showcase of My Projects**  
   Explore my GitHub repositories and the projects I’ve built.
 - **Ways to Connect**  
