@@ -2,7 +2,6 @@
 layout: default
 title: "Uyen Vu's Website"
 ---
-
   
 # Hello, I'm Uyen Vu 👋
 Welcome to my personal website!  
