@@ -6,8 +6,6 @@ title: "Uyen Vu's Website"
 # Hello, I'm Uyen Vu 👋
 Welcome to my personal website!  
 
-<img src="images/profile.png" alt="Uyen Vu" style="width:200px; border-radius:50%;">
-
 I’m a **Software Developer** with a passion for creating efficient, scalable, and user-friendly applications.
 
 ## Education
