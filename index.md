@@ -3,7 +3,8 @@ layout: default
 title: "Uyen Vu's Website"
 ---
 
-<div style="padding-left: 20px;">
+<div style="margin-left: 20px; max-width: 800px;">
+  
 # Hello, I'm Uyen Vu 👋
 Welcome to my personal website!  
 
@@ -31,4 +32,5 @@ I’m a **Software Developer** with a passion for creating efficient, scalable, 
 
   
 Feel free to explore and reach out!
+
 </div>
