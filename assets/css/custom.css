@@ -1,0 +1,140 @@
+/* 🛠️ Ensure Content Fits the Screen */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 40px; /* Move content slightly right */
+    padding-top: 100px; /* Ensure enough space below navbar */
+    font-size: 20px; /* Bigger font for readability */
+    line-height: 1.8; /* Improved spacing */
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+/* 🛠️ Fix Center White Bar Issue */
+/* 🛠️ Remove Padding & Move Container Up */
+.container {
+    max-width: 900px; /* Keeps content readable */
+    width: 90%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    margin-left: auto; /* Centers container */
+    margin-right: auto; /* Centers container */
+    margin-top: -20px; /* Moves container closer to navbar */
+    padding: 0; /* Removes extra padding inside */
+    text-align: left;
+}
+
+
+/* 🛠️ Make Navbar Fit the Screen */
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: transparent;
+    height: 65px; /* Set fixed height */
+    padding: 10px 20px;
+    font-size: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    border-radius: 0px 0px 15px 15px;
+    transition: background 0.3s ease-in-out; /* Remove height transition */
+}
+
+
+/* 🛠️ Fix Navbar Menu */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px; /* More space between items */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    font-size: 20px; /* Make navigation text bigger */
+    padding: 12px 18px; /* More padding for a better look */
+}
+
+nav ul li a:hover {
+    background: rgba(173, 216, 230, 0.9);
+}
+
+/* 🛠️ Keep Navbar Transparent but Small on Scroll */
+.scrolled {
+    background: transparent; /* Keeps navbar always transparent */
+    height: 65px !important; /* Forces height to stay the same */
+}
+
+/* 🛠️ Center "Hello" Text Properly */
+.hello-text {
+    font-size: 2.8rem; /* Larger greeting text */
+    font-weight: bold;
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+/* 🛠️ Make Sure Nothing Overflows Horizontally */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* 🛠️ Improve Headings & Section Titles */
+h1 {
+    font-size: 2.8rem; /* Bigger main title */
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2rem; /* Bigger section titles */
+    font-weight: bold;
+}
+
+/* 🛠️ Increase Font Size for Sections (Education, Projects, Links, Resources) */
+.container .content {
+    font-size: 1.8rem; /* Make section text bigger */
+    line-height: 1.9; /* Improve spacing */
+}
+
+/* 🛠️ Collapsible Sections */
+.container {
+    width: 80%; /* Make it fit better */
+    max-width: 900px;
+    border: 1px solid #d3d3d3;
+    margin: auto; /* Center it */
+}
+
+.container div {
+    width: 100%;
+}
+
+.container .header {
+    background-color: #d3d3d3;
+    padding: 12px; /* Bigger padding */
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px; /* Make header text bigger */
+    border-bottom: 2px solid #aaa; /* Make header clearer */
+}
+
+.container .content {
+    display: none;
+    padding: 15px 20px; /* More space inside */
+    background-color: #f9f9f9;
+    border-left: 4px solid #d3d3d3; /* Adds a left border */
+}
