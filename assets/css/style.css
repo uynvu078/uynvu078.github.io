@@ -1,13 +1,11 @@
 /* Global styles */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #fafafa;
-    color: #222;
-    line-height: 1.7;
-    padding: 2rem;
-    max-width: 900px;
-    margin: auto;
-  }
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(180deg, #f7f9fb 0%, #ffffff 100%);
+  margin: 0;
+  padding: 0 1rem;
+  color: #222;
+}
   
   h1, h2, h3 {
     color: #1e1e1e;
@@ -75,6 +73,24 @@ body {
   
   a.btn-link:hover {
     background-color: #1558b0;
+  }
+
+  .project-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    padding: 2rem;
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
   }
   
   /* Responsive tweaks */
