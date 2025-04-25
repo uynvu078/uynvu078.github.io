@@ -1,0 +1,94 @@
+/* Global styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fafafa;
+    color: #222;
+    line-height: 1.7;
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  h1, h2, h3 {
+    color: #1e1e1e;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    margin-bottom: 1.2rem;
+  }
+  
+  a {
+    color: #1a73e8;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Image styles */
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Section spacing */
+  section {
+    margin-bottom: 3rem;
+  }
+  
+  /* Buttons (if using in custom HTML) */
+  .btn {
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    background-color: #1a73e8;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    text-decoration: none;
+    margin-right: 0.5rem;
+    transition: background 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #1558b0;
+  }
+  
+  a.btn-link {
+    display: inline-block;
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #1a73e8;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.95rem;
+  }
+  
+  a.btn-link:hover {
+    background-color: #1558b0;
+  }
+  
+  /* Responsive tweaks */
+  @media screen and (max-width: 600px) {
+    body {
+      padding: 1rem;
+    }
+  
+    h1 {
+      font-size: 1.8rem;
+    }
+  
+    h2 {
+      font-size: 1.4rem;
+    }
+  }
+  
