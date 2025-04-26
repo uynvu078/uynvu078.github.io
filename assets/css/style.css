@@ -4,7 +4,7 @@ body {
   background: linear-gradient(180deg, #f7f9fb 0%, #ffffff 100%);
   margin-top: 4rem !important;
   margin-left: 0 !important;
-  padding: 0 2rem !important;
+  padding-top: 1.5rem !important;
   color: #222;
 }
   
@@ -90,7 +90,7 @@ a.btn-link:hover {
   background: #f6f8fb;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-  padding: 2rem;
+  padding: 2rem !important;
   margin: 1rem auto;
   display: flex;
   flex-wrap: wrap;
@@ -107,7 +107,7 @@ a.btn-link:hover {
 .custom-button {
   display: inline-block;
   font-size: 1.1rem;
-  padding: 0.75rem 1.6rem;
+  padding: 0.75rem 1.6rem !important;
   border-radius: 12px;
   background-color: #d9e1ea;
   color: #1e1e1e;
@@ -213,6 +213,7 @@ a.btn-link:hover {
   font-size: 2.5rem !important;
   font-weight: 700 !important;
   padding-right: 35rem;
+  padding-left: 2rem !important;
 }
 .greedy-nav .masthead__menu-item--lg a {
   color: #1e1e1e !important;
@@ -236,3 +237,13 @@ a.btn-link:hover {
   padding-right: 1rem;
 }
 
+* {
+  padding-left: 0 !important;
+}
+
+.intro {
+  width: 960px !important; 
+  margin: 0 auto; 
+  padding: 2rem 0 !important; 
+  text-align: center;
+}

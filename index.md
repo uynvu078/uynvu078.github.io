@@ -13,26 +13,39 @@ title: "Uyen Vu"
 }
 </style>
 
-<div class="fade-in" style="font-size: 2.5rem; margin-bottom: 0;">👩‍💻 Hello, I'm <span style="color: #1a73e8;">Uyen Vu</span></div>
-
 ---
 
-<div class="fade-in" style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: center; justify-content: center; padding: 0; margin-top: 0; margin-bottom: 0;">
+<div class="intro">
+  
+  <!-- Greeting Line -->
+  <div class="fade-in" style="font-size: 2.5rem; margin-bottom: 1.5rem;">
+    👩‍💻 Hello, I'm <span style="color: #1a73e8;">Uyen Vu</span>
+  </div>
 
-  <img src="images/profile.png" alt="Uyen Vu" style="width: 220px; height: 290px; border-radius: 20%; object-fit: cover; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+  <!-- Flex container: Image + Description -->
+  <div class="fade-in" style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: center; justify-content: center;">
+    
+    <!-- Image -->
+    <img src="images/profile.png" alt="Uyen Vu"
+      style="width: 220px; height: 290px; border-radius: 20%; object-fit: cover;
+             box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
 
-  <div style="flex: 1; min-width: 250px;">
-    <p style="font-size: 1.2rem;">
-      I'm a <strong>Software Developer</strong> passionate about building clean, scalable, and user-friendly web applications.<br><br>
-      I specialize in <strong>JavaScript, React, Node.js, and Django</strong>, and love turning ideas into elegant digital solutions.
-    </p>
-    <p style="margin-top: 1.5rem;">
-      <a href="https://www.linkedin.com/in/uyen-vu-sf8358/" target="_blank" rel="noopener noreferrer">💼 LinkedIn</a> &nbsp;•&nbsp;
-      <a href="https://github.com/uynvu078" target="_blank" rel="noopener noreferrer">💻 GitHub</a> &nbsp;•&nbsp;
-      <a href="mailto:uyenvu315@gmail.com">📧 Email Me</a>
-    </p>
+    <!-- Description -->
+    <div style="flex: 1; min-width: 280px; max-width: 480px; text-align: left;">
+      <p style="font-size: 1.2rem;">
+        I'm a <strong>Software Developer</strong> passionate about building clean, scalable, and user-friendly web applications.<br><br>
+        I specialize in <strong>JavaScript, React, Node.js, and Django</strong>, and love turning ideas into elegant digital solutions.
+      </p>
+      <p style="margin-top: 1.5rem;">
+        <a href="https://www.linkedin.com/in/uyen-vu-sf8358/" target="_blank" rel="noopener noreferrer">💼 LinkedIn</a> &nbsp;•&nbsp;
+        <a href="https://github.com/uynvu078" target="_blank" rel="noopener noreferrer">💻 GitHub</a> &nbsp;•&nbsp;
+        <a href="mailto:uyenvu315@gmail.com">📧 Email Me</a>
+      </p>
+    </div>
+
   </div>
 </div>
+
 
 ---
 
