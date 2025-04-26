@@ -2,109 +2,237 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   background: linear-gradient(180deg, #f7f9fb 0%, #ffffff 100%);
-  margin: 0;
-  padding: 0 1rem;
+  margin-top: 4rem !important;
+  margin-left: 0 !important;
+  padding: 0 2rem !important;
   color: #222;
 }
   
-  h1, h2, h3 {
-    color: #1e1e1e;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-  }
-  
-  p {
-    margin-bottom: 1.2rem;
-  }
-  
-  a {
-    color: #1a73e8;
-    text-decoration: none;
-    font-weight: 500;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  /* Image styles */
-  img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 1.5rem;
-  }
-  
-  /* Section spacing */
-  section {
-    margin-bottom: 3rem;
-  }
-  
-  /* Buttons (if using in custom HTML) */
-  .btn {
-    display: inline-block;
-    padding: 0.6rem 1.2rem;
-    background-color: #1a73e8;
-    color: white;
-    text-align: center;
-    border-radius: 8px;
-    font-size: 0.95rem;
-    text-decoration: none;
-    margin-right: 0.5rem;
-    transition: background 0.3s ease;
-  }
-  
-  .btn:hover {
-    background-color: #1558b0;
-  }
-  
-  a.btn-link {
-    display: inline-block;
-    margin-top: 0.5rem;
-    margin-right: 1rem;
-    padding: 0.5rem 1rem;
-    background-color: #1a73e8;
-    color: white;
-    border-radius: 6px;
-    text-decoration: none;
-    font-size: 0.95rem;
-  }
-  
-  a.btn-link:hover {
-    background-color: #1558b0;
+h1 {
+  color: #1e1e1e;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+h2 {
+  color: #2c3e50;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+h3 {
+  color: #708090;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1.2rem;
+}
+
+a {
+  color: #1a73e8;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Image styles */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+/* Section spacing */
+section {
+  margin-bottom: 3rem;
+}
+
+/* Buttons (if using in custom HTML) */
+.btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background-color: #1a73e8;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  text-decoration: none;
+  margin-right: 0.5rem;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #1558b0;
+}
+
+a.btn-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #1a73e8;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+a.btn-link:hover {
+  background-color: #1558b0;
+}
+
+.project-card {
+  background: #f6f8fb;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  padding: 2rem;
+  margin: 1rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  max-width: 1300px;
+}
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.custom-button {
+  display: inline-block;
+  font-size: 1.1rem;
+  padding: 0.75rem 1.6rem;
+  border-radius: 12px;
+  background-color: #d9e1ea;
+  color: #1e1e1e;
+  text-decoration: none;
+  font-weight: 500;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  border: 1px solid #c0cad4;
+  transition: all 0.3s ease;
+}
+.custom-button:hover {
+  background-color: #c7d4e2;
+  color: #111;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+}
+
+
+/* Responsive tweaks */
+@media screen and (max-width: 600px) {
+  body {
+    padding: 1rem;
   }
 
-  .project-card {
-    background: #fff;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-    padding: 2rem;
-    margin-bottom: 2.5rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    align-items: center;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  h1 {
+    font-size: 1.8rem;
   }
-  
-  .project-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+
+  h2 {
+    font-size: 1.4rem;
   }
-  
-  /* Responsive tweaks */
-  @media screen and (max-width: 600px) {
-    body {
-      padding: 1rem;
-    }
-  
-    h1 {
-      font-size: 1.8rem;
-    }
-  
-    h2 {
-      font-size: 1.4rem;
-    }
-  }
-  
+}
+
+/* ----------------------------------------------------------------------------
+---------------------------------------------------------------------------- */
+/* Navbar Link Styling */
+.greedy-nav {
+  width: 100vw;
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+  padding: 1rem 2rem;
+  background-color: rgb(230, 230, 230);
+  border: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  position: static !important;
+  top: 0;
+  z-index: 1000;
+}
+
+.masthead__inner-wrap {
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.masthead__menu-item--lg {
+  margin-right: auto;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.visible-links {
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.masthead__menu-item a {
+  color: #1e1e1e;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease;
+  font-weight: 500;
+}
+
+.masthead__menu-item a::after {
+  content: '';
+  height: 2px;
+  width: 0;
+  background-color: #6c7aa1;
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  transition: width 0.3s ease;
+}
+
+.masthead__menu-item a:hover {
+  color: #577cc4;
+  background-color: transparent;
+}
+
+.masthead__menu-item a:hover::after {
+  width: 100%;
+}
+
+/* Force title item to align left and push others right */
+.greedy-nav .masthead__menu-item--lg {
+  margin-right: auto !important;
+  font-size: 2.5rem !important;
+  font-weight: 700 !important;
+  padding-right: 35rem;
+}
+.greedy-nav .masthead__menu-item--lg a {
+  color: #1e1e1e !important;
+}
+.greedy-nav .masthead__menu-item--lg a:hover {
+  color: #153282 !important;
+  background-color: transparent;
+  text-decoration: none !important;
+
+}
+.greedy-nav .masthead__menu-item--lg a::after {
+  content: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  background: none !important;
+  transition: none !important;
+  display: none !important;
+}
+
+.greedy-nav .masthead__menu-item {
+  padding-right: 1rem;
+}
+
